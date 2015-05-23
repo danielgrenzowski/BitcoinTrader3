@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C494E5A1B101A61002CA32C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E591B101A61002CA32C /* main.m */; };
+		3C494E5D1B101A61002CA32C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E5C1B101A61002CA32C /* AppDelegate.m */; };
+		3C494E601B101A61002CA32C /* BitcoinTrader3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E5E1B101A61002CA32C /* BitcoinTrader3.xcdatamodeld */; };
+		3C494E631B101A61002CA32C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E621B101A61002CA32C /* MasterViewController.m */; };
+		3C494E661B101A61002CA32C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E651B101A61002CA32C /* DetailViewController.m */; };
+		3C494E691B101A61002CA32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E671B101A61002CA32C /* Main.storyboard */; };
+		3C494E6B1B101A61002CA32C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E6A1B101A61002CA32C /* Images.xcassets */; };
+		3C494E6E1B101A61002CA32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E6C1B101A61002CA32C /* LaunchScreen.xib */; };
+		3C494E7A1B101A61002CA32C /* BitcoinTrader3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E791B101A61002CA32C /* BitcoinTrader3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C494E741B101A61002CA32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C494E4C1B101A61002CA32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C494E531B101A61002CA32C;
+			remoteInfo = BitcoinTrader3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C494E541B101A61002CA32C /* BitcoinTrader3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinTrader3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C494E581B101A61002CA32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C494E591B101A61002CA32C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C494E5B1B101A61002CA32C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C494E5C1B101A61002CA32C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C494E5F1B101A61002CA32C /* BitcoinTrader3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitcoinTrader3.xcdatamodel; sourceTree = "<group>"; };
+		3C494E611B101A61002CA32C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3C494E621B101A61002CA32C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3C494E641B101A61002CA32C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3C494E651B101A61002CA32C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3C494E681B101A61002CA32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C494E6A1B101A61002CA32C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C494E6D1B101A61002CA32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C494E731B101A61002CA32C /* BitcoinTrader3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinTrader3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C494E781B101A61002CA32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C494E791B101A61002CA32C /* BitcoinTrader3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinTrader3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C494E511B101A61002CA32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C494E701B101A61002CA32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C494E4B1B101A61002CA32C = {
+			isa = PBXGroup;
+			children = (
+				3C494E561B101A61002CA32C /* BitcoinTrader3 */,
+				3C494E761B101A61002CA32C /* BitcoinTrader3Tests */,
+				3C494E551B101A61002CA32C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C494E551B101A61002CA32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C494E541B101A61002CA32C /* BitcoinTrader3.app */,
+				3C494E731B101A61002CA32C /* BitcoinTrader3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C494E561B101A61002CA32C /* BitcoinTrader3 */ = {
+			isa = PBXGroup;
+			children = (
+				3C494E5B1B101A61002CA32C /* AppDelegate.h */,
+				3C494E5C1B101A61002CA32C /* AppDelegate.m */,
+				3C494E611B101A61002CA32C /* MasterViewController.h */,
+				3C494E621B101A61002CA32C /* MasterViewController.m */,
+				3C494E641B101A61002CA32C /* DetailViewController.h */,
+				3C494E651B101A61002CA32C /* DetailViewController.m */,
+				3C494E671B101A61002CA32C /* Main.storyboard */,
+				3C494E6A1B101A61002CA32C /* Images.xcassets */,
+				3C494E6C1B101A61002CA32C /* LaunchScreen.xib */,
+				3C494E5E1B101A61002CA32C /* BitcoinTrader3.xcdatamodeld */,
+				3C494E571B101A61002CA32C /* Supporting Files */,
+			);
+			path = BitcoinTrader3;
+			sourceTree = "<group>";
+		};
+		3C494E571B101A61002CA32C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C494E581B101A61002CA32C /* Info.plist */,
+				3C494E591B101A61002CA32C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C494E761B101A61002CA32C /* BitcoinTrader3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C494E791B101A61002CA32C /* BitcoinTrader3Tests.m */,
+				3C494E771B101A61002CA32C /* Supporting Files */,
+			);
+			path = BitcoinTrader3Tests;
+			sourceTree = "<group>";
+		};
+		3C494E771B101A61002CA32C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C494E781B101A61002CA32C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C494E531B101A61002CA32C /* BitcoinTrader3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C494E7D1B101A61002CA32C /* Build configuration list for PBXNativeTarget "BitcoinTrader3" */;
+			buildPhases = (
+				3C494E501B101A61002CA32C /* Sources */,
+				3C494E511B101A61002CA32C /* Frameworks */,
+				3C494E521B101A61002CA32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitcoinTrader3;
+			productName = BitcoinTrader3;
+			productReference = 3C494E541B101A61002CA32C /* BitcoinTrader3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C494E721B101A61002CA32C /* BitcoinTrader3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C494E801B101A61002CA32C /* Build configuration list for PBXNativeTarget "BitcoinTrader3Tests" */;
+			buildPhases = (
+				3C494E6F1B101A61002CA32C /* Sources */,
+				3C494E701B101A61002CA32C /* Frameworks */,
+				3C494E711B101A61002CA32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C494E751B101A61002CA32C /* PBXTargetDependency */,
+			);
+			name = BitcoinTrader3Tests;
+			productName = BitcoinTrader3Tests;
+			productReference = 3C494E731B101A61002CA32C /* BitcoinTrader3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C494E4C1B101A61002CA32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DGInc;
+				TargetAttributes = {
+					3C494E531B101A61002CA32C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3C494E721B101A61002CA32C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3C494E531B101A61002CA32C;
+					};
+				};
+			};
+			buildConfigurationList = 3C494E4F1B101A61002CA32C /* Build configuration list for PBXProject "BitcoinTrader3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C494E4B1B101A61002CA32C;
+			productRefGroup = 3C494E551B101A61002CA32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C494E531B101A61002CA32C /* BitcoinTrader3 */,
+				3C494E721B101A61002CA32C /* BitcoinTrader3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C494E521B101A61002CA32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C494E691B101A61002CA32C /* Main.storyboard in Resources */,
+				3C494E6E1B101A61002CA32C /* LaunchScreen.xib in Resources */,
+				3C494E6B1B101A61002CA32C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C494E711B101A61002CA32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C494E501B101A61002CA32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C494E661B101A61002CA32C /* DetailViewController.m in Sources */,
+				3C494E631B101A61002CA32C /* MasterViewController.m in Sources */,
+				3C494E5D1B101A61002CA32C /* AppDelegate.m in Sources */,
+				3C494E601B101A61002CA32C /* BitcoinTrader3.xcdatamodeld in Sources */,
+				3C494E5A1B101A61002CA32C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C494E6F1B101A61002CA32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C494E7A1B101A61002CA32C /* BitcoinTrader3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C494E751B101A61002CA32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C494E531B101A61002CA32C /* BitcoinTrader3 */;
+			targetProxy = 3C494E741B101A61002CA32C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C494E671B101A61002CA32C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C494E681B101A61002CA32C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C494E6C1B101A61002CA32C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C494E6D1B101A61002CA32C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C494E7B1B101A61002CA32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C494E7C1B101A61002CA32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C494E7E1B101A61002CA32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitcoinTrader3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C494E7F1B101A61002CA32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitcoinTrader3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C494E811B101A61002CA32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitcoinTrader3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinTrader3.app/BitcoinTrader3";
+			};
+			name = Debug;
+		};
+		3C494E821B101A61002CA32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitcoinTrader3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitcoinTrader3.app/BitcoinTrader3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C494E4F1B101A61002CA32C /* Build configuration list for PBXProject "BitcoinTrader3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C494E7B1B101A61002CA32C /* Debug */,
+				3C494E7C1B101A61002CA32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C494E7D1B101A61002CA32C /* Build configuration list for PBXNativeTarget "BitcoinTrader3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C494E7E1B101A61002CA32C /* Debug */,
+				3C494E7F1B101A61002CA32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C494E801B101A61002CA32C /* Build configuration list for PBXNativeTarget "BitcoinTrader3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C494E811B101A61002CA32C /* Debug */,
+				3C494E821B101A61002CA32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C494E5E1B101A61002CA32C /* BitcoinTrader3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C494E5F1B101A61002CA32C /* BitcoinTrader3.xcdatamodel */,
+			);
+			currentVersion = 3C494E5F1B101A61002CA32C /* BitcoinTrader3.xcdatamodel */;
+			path = BitcoinTrader3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C494E4C1B101A61002CA32C /* Project object */;
+}
