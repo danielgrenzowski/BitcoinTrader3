@@ -11,11 +11,13 @@
 		3C494E5D1B101A61002CA32C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E5C1B101A61002CA32C /* AppDelegate.m */; };
 		3C494E601B101A61002CA32C /* BitcoinTrader3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E5E1B101A61002CA32C /* BitcoinTrader3.xcdatamodeld */; };
 		3C494E631B101A61002CA32C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E621B101A61002CA32C /* MasterViewController.m */; };
-		3C494E661B101A61002CA32C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E651B101A61002CA32C /* DetailViewController.m */; };
-		3C494E691B101A61002CA32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E671B101A61002CA32C /* Main.storyboard */; };
 		3C494E6B1B101A61002CA32C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E6A1B101A61002CA32C /* Images.xcassets */; };
-		3C494E6E1B101A61002CA32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E6C1B101A61002CA32C /* LaunchScreen.xib */; };
 		3C494E7A1B101A61002CA32C /* BitcoinTrader3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E791B101A61002CA32C /* BitcoinTrader3Tests.m */; };
+		3C494E851B101AE7002CA32C /* AddPositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E841B101AE7002CA32C /* AddPositionViewController.m */; };
+		3C494E881B101B52002CA32C /* PositionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E871B101B52002CA32C /* PositionTableViewCell.m */; };
+		3C494E8A1B101BA5002CA32C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3C494E891B101BA5002CA32C /* README.md */; };
+		3C494E8C1B101BF9002CA32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E8B1B101BF9002CA32C /* Main.storyboard */; };
+		3C494E8E1B101C29002CA32C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C494E8D1B101C29002CA32C /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +39,17 @@
 		3C494E5F1B101A61002CA32C /* BitcoinTrader3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitcoinTrader3.xcdatamodel; sourceTree = "<group>"; };
 		3C494E611B101A61002CA32C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		3C494E621B101A61002CA32C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		3C494E641B101A61002CA32C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		3C494E651B101A61002CA32C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		3C494E681B101A61002CA32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C494E6A1B101A61002CA32C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3C494E6D1B101A61002CA32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C494E731B101A61002CA32C /* BitcoinTrader3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitcoinTrader3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C494E781B101A61002CA32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C494E791B101A61002CA32C /* BitcoinTrader3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinTrader3Tests.m; sourceTree = "<group>"; };
+		3C494E831B101AE7002CA32C /* AddPositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPositionViewController.h; sourceTree = "<group>"; };
+		3C494E841B101AE7002CA32C /* AddPositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPositionViewController.m; sourceTree = "<group>"; };
+		3C494E861B101B52002CA32C /* PositionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionTableViewCell.h; sourceTree = "<group>"; };
+		3C494E871B101B52002CA32C /* PositionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionTableViewCell.m; sourceTree = "<group>"; };
+		3C494E891B101BA5002CA32C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C494E8B1B101BF9002CA32C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3C494E8D1B101C29002CA32C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 		3C494E4B1B101A61002CA32C = {
 			isa = PBXGroup;
 			children = (
+				3C494E891B101BA5002CA32C /* README.md */,
 				3C494E561B101A61002CA32C /* BitcoinTrader3 */,
 				3C494E761B101A61002CA32C /* BitcoinTrader3Tests */,
 				3C494E551B101A61002CA32C /* Products */,
@@ -90,11 +96,13 @@
 				3C494E5C1B101A61002CA32C /* AppDelegate.m */,
 				3C494E611B101A61002CA32C /* MasterViewController.h */,
 				3C494E621B101A61002CA32C /* MasterViewController.m */,
-				3C494E641B101A61002CA32C /* DetailViewController.h */,
-				3C494E651B101A61002CA32C /* DetailViewController.m */,
-				3C494E671B101A61002CA32C /* Main.storyboard */,
+				3C494E861B101B52002CA32C /* PositionTableViewCell.h */,
+				3C494E871B101B52002CA32C /* PositionTableViewCell.m */,
+				3C494E831B101AE7002CA32C /* AddPositionViewController.h */,
+				3C494E841B101AE7002CA32C /* AddPositionViewController.m */,
+				3C494E8B1B101BF9002CA32C /* Main.storyboard */,
 				3C494E6A1B101A61002CA32C /* Images.xcassets */,
-				3C494E6C1B101A61002CA32C /* LaunchScreen.xib */,
+				3C494E8D1B101C29002CA32C /* LaunchScreen.xib */,
 				3C494E5E1B101A61002CA32C /* BitcoinTrader3.xcdatamodeld */,
 				3C494E571B101A61002CA32C /* Supporting Files */,
 			);
@@ -207,9 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C494E691B101A61002CA32C /* Main.storyboard in Resources */,
-				3C494E6E1B101A61002CA32C /* LaunchScreen.xib in Resources */,
 				3C494E6B1B101A61002CA32C /* Images.xcassets in Resources */,
+				3C494E8E1B101C29002CA32C /* LaunchScreen.xib in Resources */,
+				3C494E8C1B101BF9002CA32C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +235,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C494E661B101A61002CA32C /* DetailViewController.m in Sources */,
+				3C494E881B101B52002CA32C /* PositionTableViewCell.m in Sources */,
 				3C494E631B101A61002CA32C /* MasterViewController.m in Sources */,
 				3C494E5D1B101A61002CA32C /* AppDelegate.m in Sources */,
+				3C494E8A1B101BA5002CA32C /* README.md in Sources */,
+				3C494E851B101AE7002CA32C /* AddPositionViewController.m in Sources */,
 				3C494E601B101A61002CA32C /* BitcoinTrader3.xcdatamodeld in Sources */,
 				3C494E5A1B101A61002CA32C /* main.m in Sources */,
 			);
@@ -252,25 +262,6 @@
 			targetProxy = 3C494E741B101A61002CA32C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3C494E671B101A61002CA32C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C494E681B101A61002CA32C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C494E6C1B101A61002CA32C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C494E6D1B101A61002CA32C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C494E7B1B101A61002CA32C /* Debug */ = {
